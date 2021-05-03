@@ -1,0 +1,17 @@
+
+@import "~vue-material/dist/vue-material.min.css";
+// @import "~vue-material/dist/theme/black-green-dark.css"; // This line here
+// @import "~vue-material/dist/theme/engine"; // Import the theme engine
+
+@import "variables";
+
+// // initialize theme
+// @include md-register-theme("default", (
+//   primary: $color-primary, // md-get-palette-color(pink, A200), // The primary color of your application
+//   accent: $color-secondary,
+//   theme: dark // This can be dark or light
+// ));
+
+@import "fonts";
+@import "stats-dom";
+@import "slider";

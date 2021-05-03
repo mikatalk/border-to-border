@@ -1,0 +1,25 @@
+.stats-dom {
+  top: auto !important;
+  left: auto !important;
+  right: -45px !important;
+  bottom: -34px !important;
+  filter: hue-rotate(-30deg);
+  // opacity: 0.5 !important;;
+  transition: all ease 200ms;
+  &:hover {
+    // opacity: 1 !important;;
+    right: 1px !important;
+    bottom: 1px !important;
+  }
+}
+
+.app.page-container {
+  &.menu-visible {
+    .stats-dom {
+      display: block;
+    }
+  }
+  .stats-dom {
+    display: none;
+  }
+}
