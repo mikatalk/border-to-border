@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-    "merge-data-sources": "node ./data/join-data.js"
+    "merge-data-sources": "node ./data/join-data.js",
+    "release": "npm run build && ./deploy.sh"
   },
   "dependencies": {
     "core-js": "^3.6.5",
